@@ -18,6 +18,7 @@ Each story has acceptance criteria that will become tests.
 - A row is invalid if it has the wrong number of fields, an unparseable date, or an unparseable amount.
 - Invalid rows are reported with their line number and the reason.
 - Valid rows are still processed (see open question 2 for the proposed default).
+- Given two or more rows with identical date, description, amount, and balance, the program keeps all of them, reports a warning with their line numbers, and does not treat them as errors.
 
 **US-03 — Categorization.** As a user, I want transactions categorized by rules I configure so that I can see where my money goes.
 
